@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: black;
+	font-family: "Protest Guerrilla", sans-serif;
+}
+
+h2 {
+	text-align: center;
+	color: rgb(192, 126, 34);
+	font-size: 35px;
+	padding-bottom: 30px;
+}
+
+.keys {
+	color: rgb(43, 199, 111);
+	font-size: 30px;
+}
+
+.titles {
+	list-style-type: none;
+}
+
+ul {
+	list-style-type: circle;
+	list-style-position: inside;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+li {
+	margin-right: 30px;
+}
+
+.container {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+}
+
+#canvas1 {
+	border: 3px solid black;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#player1,
+#layer1,
+#layer2,
+#layer3,
+#layer4,
+#layer5,
+#down,
+#stay,
+#cactus2,
+#cactus4,
+#enemyPlant,
+#enemyDino {
+	display: none;
+}
